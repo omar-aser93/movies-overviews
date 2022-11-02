@@ -7,7 +7,7 @@ const Movie =({title ,poster_path ,overview ,vote_average ,release_date ,id }) =
   
   const [videos, setVideos] = useState(null);        //store movie's videos  
   //fetch videos endpoint using movie id
-  const trailer = `http://api.themoviedb.org/3/movie/${id}/videos?api_key=8b3086d8cc10f509a461783c237dd937` ;  
+  const trailer = `https://api.themoviedb.org/3/movie/${id}/videos?api_key=8b3086d8cc10f509a461783c237dd937` ;  
   const getTrailer = () => {                         
     fetch(trailer).then(res => res.json()).then(data=>{setVideos(data.results) })}  ; 
     
