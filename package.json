@@ -2,7 +2,7 @@
   "name": "movies-overview",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://omar-aser93.github.io/movies-overview/",
+  "homepage": "https://omar-aser93.github.io/movies-overviews/",
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
